@@ -55,7 +55,7 @@ return (
             type="password"
             placeholder= "Password"
             value = {password}
-            onVhange = {(e) => setPassword (e.target.value)}
+            onChange = {(e) => setPassword (e.target.value)}
             required
             /> <bt />
 
