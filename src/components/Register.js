@@ -20,7 +20,7 @@ try {
     setSuccess ('Registeration successful! You can now log in.');
     setTimeout(()=> {navigate ('/');
     }, 2000);
-}catch(err) { setError ('REgisteration failed. Please try again.');
+}catch(err) { setError ('Registeration failed. Please try again.');
 }
 };
 

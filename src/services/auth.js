@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/auth/'; // Change this if deployed
+const API_URL = 'alakeel-mini-backend.vercel.app/api/auth/'; // Change this if deployed
 
 export const login = (email, password) =>{
 return axios.post(`${API_URL}/login`, {email, password});
